@@ -61,17 +61,19 @@ int Depth(BiTree T)
 int main()
 {
 	BiTree T;
-	cout << "先序创建二叉树:";
-	//abc##de#g##f###创建二叉树的用例 
+	// cout << "先序创建二叉树:";
+	//   abc##de#g##f###   创建二叉树的用例 
 	CreateBiTree(T);
 	cout << endl;
 	cout << "先序遍历二叉树:";
 	PreOrder(T);
 	cout << endl;
-	cout << "中序遍历二叉树:";
+	// cout << "中序遍历二叉树:";
 	InOrder(T);
 	cout << endl;
-	cout << "树的深度:" << Depth(T) << endl;
+	// cout << "树的深度:" << Depth(T) << endl;
+	system("pause");
+	return 0;
 
 }
 
