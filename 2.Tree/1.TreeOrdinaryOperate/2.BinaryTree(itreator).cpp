@@ -151,7 +151,7 @@ int main()
 
 }*/
 
-
+/*
 #include<iostream>
 #include<vector>
 #include<stack>
@@ -165,7 +165,7 @@ typedef struct Node
 	Node():lchild(nullptr), rchild(nullptr){}
 	Node(char val):info(val), lchild(nullptr), rchild(nullptr){}
 	~Node(){}
-}Tree;
+}Tree;*/
 
 /*
 //创建树结构体
@@ -178,7 +178,7 @@ typedef struct Tree
 };*/
 
 
-
+/*
 //使用前序遍历迭代法创建二叉树
 Tree* create(const char*&str)
 {
@@ -287,7 +287,7 @@ int main()
 	inorprint(root);
 	printf("\n");
 	return 0;
-}
+}*/
 
 
 
